@@ -1,0 +1,16 @@
+
+ATALHOS
+    # tecla 'A', mostra uma lista de artboards para vc utilizar
+
+    # command + d, duplica (clica no item e aperta esse atalho)
+
+    # tecla 'R', cria retangulo
+
+    # tecla 'T', cria texto
+
+    # command+g, criar agrupamento
+
+    # shift+r, cria linhas imaginárias que ajudam a visualisar os espaçamentos
+
+    # 
+
