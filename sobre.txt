@@ -54,3 +54,19 @@ Criando interfaces
 
         # adicionando variantes do componente criado
             # clique no componente vai em 
+    
+    # Exportando svg's
+    
+Pluguins 
+    # Tailwind Colors
+        # procurar pelo pluguin Tailwind color pallets
+        # cria uma paleta de cores pra gente utilziar (ajuda bastante)
+    # UI Faces
+        # pluguin para gerar rostos de avatares pra gente
+    # Faker
+        # Gerar dados fictícios
+        # 
+
+Figma no código
+    # Exportando Design Tokens
+        # Existe um pluguin dentro do figma chamado Design Tokens
