@@ -1,4 +1,6 @@
 
+PROJETO NO FIGMA: https://www.figma.com/file/4TFSOmN7H0bfxLBDKU2jZL/FigmaForDevs?node-id=0-1&t=pd3Rta2ALY4Oj2iv-0
+
 ATALHOS
     # tecla 'A', mostra uma lista de artboards para vc utilizar
 
@@ -12,5 +14,43 @@ ATALHOS
 
     # shift+r, cria linhas imaginárias que ajudam a visualisar os espaçamentos
 
-    # 
+    # tecla 'K', para redimencionar e manter as proproções das bortas e etc
+        # aperta k e redimenciona manualmente o elemento
+    
+    # command + alt + k, cria um Componente
+        # selecione o grupo e aperte esta sequencia de teclas
 
+Criando interfaces
+    # Auto layout (flex-box)
+        # agrupe algo e clique em adicionar o auto layout
+    
+    # Utilizando ícones
+        # clique com o botaõ direito dentro do grupo que vc quer
+        # vai em pluguins, procure por phospor icons
+   
+    # Constraints
+        # é uma configuraçãoq ue dizemos, como que nossa layer se comporte caso eu aumente o tamanho da tela por exemplo
+    
+    # Publicando Styles
+        # É normal agente ter um reaproveitamento de cores no figma, e agente consegue criar noss aprópria biblioteca de cores no figma
+        # clicando no board com o botão direito, vai em pluguins, e vai em procurar um novo pluguin e procura por color style guide
+    
+    # Componentes
+        # criar uma page de componentes
+        # selecione algum grupo que vc tenha e clique em um ícone que vai aparecer no canto superior ou
+          aperte command + alt + k
+          Você vai perceber que ele ficou roxo, significa que ele é um Componente agr
+
+        # clicando no componente vc vai perceber que tem uma parte de propriedades
+            # crie uma propriedade de texto la
+            # dai vc consegue assinar um texto por exemplo a uma propriedade do componente
+            
+            # tem a propriedade de instance swap que permite vc adicionar uma propriedade que vc pega de outra page
+              no nosso caso, queremos um ícone que esta em outra page separada só para ícones em forma de componentes
+            
+                # caso vc queira colocar um ícone como propriedade de um componenete
+                    # clique no componente, vá em resources (icone no menu la em cima), ou aperte shift + I
+                    # escolha o ícone e dps clique nele e assine na propriedade instance swap que vc criou
+
+        # adicionando variantes do componente criado
+            # clique no componente vai em 
