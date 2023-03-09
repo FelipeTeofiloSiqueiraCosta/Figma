@@ -113,4 +113,5 @@ Figma no código
             # com o token em mãos, vc vai no plugin na opção de "send design tokens to url"
             # cola o token no Access tokens e escolhe como auth o github
             # crie uma pasta .github/workflows/update-tokens.yml
-            # 
+            # dai la no plugin vc coloca a url: 
+                # https://api.github.com/repos/FelipeTeofiloSiqueiraCosta/Figma/dispatches
