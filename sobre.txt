@@ -70,3 +70,32 @@ Pluguins
 Figma no código
     # Exportando Design Tokens
         # Existe um pluguin dentro do figma chamado Design Tokens
+            # Você pode exportar um componente do figma em Export design token file do Design tokens plugin
+        # Dai depois de ter exportado agente vai estar utilizando uma ferramenta chamada style dictionary
+            # https://amzn.github.io/style-dictionary/#/
+            # O objetivo dessa ferraemnte é pegar esse objeto de rokens exportado e converter ele para vários formatos
+              diferentes
+            # Ele consegue converter pra gente em css, js e muito mais
+
+        # instale ele, npm install -D style-dictionary
+        # npx style-dictionary init basic
+        # delete a pasta build e tokens que são criadas automaticamente
+        # deixe o arquivo config.json assim:
+            {
+                "source": ["tokens/**/*.json"],
+                "platforms": {
+                    "scss": {
+                        "transformGroup": "css",
+                        "buildPath": "build/css/",
+                        "files": [
+                            {
+                            "destination": "variables.css",
+                            "format": "css/variables"
+                            }
+                        ]
+                    }
+                }
+            }
+
+        # criar script de build no package.json
+        # adicionar .gitignore

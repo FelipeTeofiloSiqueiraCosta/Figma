@@ -1,0 +1,67 @@
+{
+  "name": "figma",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "capital-case": "^1.0.4",
+    "camel-case": "^4.1.2",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "change-case": "^4.1.2",
+    "concat-map": "^0.0.1",
+    "color-name": "^1.1.4",
+    "dot-case": "^3.0.4",
+    "constant-case": "^3.0.4",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "commander": "^8.3.0",
+    "has-flag": "^4.0.0",
+    "header-case": "^2.0.4",
+    "fs-extra": "^10.1.0",
+    "inflight": "^1.0.6",
+    "graceful-fs": "^4.2.10",
+    "inherits": "^2.0.4",
+    "jsonc-parser": "^3.2.0",
+    "json5": "^2.2.3",
+    "lower-case": "^2.0.2",
+    "no-case": "^3.0.4",
+    "lodash": "^4.17.21",
+    "param-case": "^3.0.4",
+    "pascal-case": "^3.1.2",
+    "jsonfile": "^6.1.0",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "path-case": "^3.0.4",
+    "sentence-case": "^3.0.4",
+    "supports-color": "^7.2.0",
+    "tslib": "^2.5.0",
+    "tinycolor2": "^1.6.0",
+    "universalify": "^2.0.0",
+    "upper-case": "^2.0.2",
+    "wrappy": "^1.0.2",
+    "minimatch": "^3.1.2",
+    "upper-case-first": "^2.0.2",
+    "snake-case": "^3.0.4"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeTeofiloSiqueiraCosta/Figma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeTeofiloSiqueiraCosta/Figma/issues"
+  },
+  "homepage": "https://github.com/FelipeTeofiloSiqueiraCosta/Figma#readme"
+}
