@@ -99,3 +99,18 @@ Figma no código
 
         # criar script de build no package.json
         # adicionar .gitignore
+    
+    # Automatizando design tokens
+        # tem uma outra forma muito legal de publicar esses design tokens
+        # o próprio plugin de design tokens tem uma opção de "send design tokens to url"
+            # agente vai usar uma utl do próprio github actions pra isso
+        # pra isso vamos precisar criar um token pra gente no git
+            # (clicar no perfil, canto superior direito) > settings > developer settings > personal access tokens > tokens (classic)
+            # colode como "Figma tokens ci"
+            # no expiration em "expiration"
+            # se o repositório for público é só seleciona o public repo
+            # se nao for, selecione repo apenas
+            # com o token em mãos, vc vai no plugin na opção de "send design tokens to url"
+            # cola o token no Access tokens e escolhe como auth o github
+            # crie uma pasta .github/workflows/update-tokens.yml
+            # 
